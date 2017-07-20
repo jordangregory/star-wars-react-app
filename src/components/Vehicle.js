@@ -4,7 +4,7 @@ export default class Vehicle extends Component {
   render() {
     let vehicles = this.props.state.vehicles.map(e => {
       return (
-        <div className="card-colums" key={e.name}>
+        <div key={e.name}>
           <h2>
             Vehicle:{e.name}
           </h2>

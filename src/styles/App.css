@@ -1,11 +1,13 @@
 .App {
   margin: 10px;
 }
+.card-container {
+}
 
-.card{
+.card {
   margin: 5px;
 }
 
-.form{
+.form {
   text-align: center;
 }
